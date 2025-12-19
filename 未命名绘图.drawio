@@ -1,9 +1,62 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/142.0.0.0 Safari/537.36" version="29.2.7">
   <diagram name="第 1 页" id="sHq-BvOGv_dmTfal9P-a">
-    <mxGraphModel>
+    <mxGraphModel dx="2128" dy="1910" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="kxSU6aeu-blLDPL44Ha8-6" edge="1" parent="1" source="kxSU6aeu-blLDPL44Ha8-1" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kxSU6aeu-blLDPL44Ha8-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kxSU6aeu-blLDPL44Ha8-1" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" value="Video Generation Model&amp;nbsp;&lt;div&gt;RL 方案&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="270" x="-10" y="-30" as="geometry" />
+        </mxCell>
+        <mxCell id="kxSU6aeu-blLDPL44Ha8-7" edge="1" parent="1" source="kxSU6aeu-blLDPL44Ha8-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kxSU6aeu-blLDPL44Ha8-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kxSU6aeu-blLDPL44Ha8-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="1、构建混合奖励模型&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="65" y="120" as="geometry" />
+        </mxCell>
+        <mxCell id="kxSU6aeu-blLDPL44Ha8-8" edge="1" parent="1" source="kxSU6aeu-blLDPL44Ha8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kxSU6aeu-blLDPL44Ha8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kxSU6aeu-blLDPL44Ha8-11" edge="1" parent="1" source="kxSU6aeu-blLDPL44Ha8-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;dashPattern=8 8;" target="kxSU6aeu-blLDPL44Ha8-2">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="30" y="317" />
+              <mxPoint x="30" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="kxSU6aeu-blLDPL44Ha8-3" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="2、奖励函数验证与加速&amp;nbsp;" vertex="1">
+          <mxGeometry height="60" width="120" x="65" y="287" as="geometry" />
+        </mxCell>
+        <mxCell id="kxSU6aeu-blLDPL44Ha8-9" edge="1" parent="1" source="kxSU6aeu-blLDPL44Ha8-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="kxSU6aeu-blLDPL44Ha8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kxSU6aeu-blLDPL44Ha8-4" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="3、选择强化学习算法" vertex="1">
+          <mxGeometry height="60" width="120" x="65" y="453" as="geometry" />
+        </mxCell>
+        <mxCell id="kxSU6aeu-blLDPL44Ha8-5" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="4、训练" vertex="1">
+          <mxGeometry height="60" width="120" x="65" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="kxSU6aeu-blLDPL44Ha8-13" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="参考World-Lens&lt;div&gt;指标候选集合：&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="140" x="210" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kxSU6aeu-blLDPL44Ha8-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="&lt;div&gt;1. Subject Fidelity&lt;/div&gt;&lt;div&gt;2. Subject Coherence&lt;/div&gt;&lt;div&gt;...&lt;/div&gt;" vertex="1">
+          <mxGeometry height="60" width="140" x="370" y="90" as="geometry" />
+        </mxCell>
+        <mxCell id="kxSU6aeu-blLDPL44Ha8-15" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="1. Displacement Error&amp;nbsp;&lt;div&gt;&lt;div data-page-id=&quot;L4jGdFqLMofs1cxOKf9c1dG8nqe&quot; data-lark-html-role=&quot;root&quot; data-docx-has-block-data=&quot;false&quot;&gt;&lt;div class=&quot;old-record-id-S8Qmd1tdqoaIFyx75okcIj2on1f&quot;&gt;2. Open-Loop Adherence&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="50" width="140" x="370" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="kxSU6aeu-blLDPL44Ha8-16" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="指标验&lt;div&gt;证方案&lt;/div&gt;" vertex="1">
+          <mxGeometry height="120" width="60" x="210" y="257" as="geometry" />
+        </mxCell>
+        <mxCell id="kxSU6aeu-blLDPL44Ha8-17" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Action-following" vertex="1">
+          <mxGeometry height="50" width="140" x="290" y="327" as="geometry" />
+        </mxCell>
+        <mxCell id="kxSU6aeu-blLDPL44Ha8-18" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="使用UniAD+Navsim 判断对于视频崩坏 情况下指标是否有区分度。" vertex="1">
+          <mxGeometry height="50" width="140" x="450" y="327" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
