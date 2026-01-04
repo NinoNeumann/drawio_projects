@@ -100,7 +100,7 @@
           <mxGeometry height="60" width="120" x="245" y="591" as="geometry" />
         </mxCell>
         <mxCell id="UmLNSSdb3Y5-cXi8uxY2-2" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;" value="Wan2.1 14B i2v&lt;div&gt;做base model&lt;/div&gt;" vertex="1">
-          <mxGeometry height="200" width="100" x="390" y="570" as="geometry" />
+          <mxGeometry height="90" width="100" x="390" y="570" as="geometry" />
         </mxCell>
         <mxCell id="GWv6rFyFy3Bnxy6G4yUA-2" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="强化 视频真实感、物流属性、时序一致性" vertex="1">
           <mxGeometry height="45" width="80" x="730" y="157.5" as="geometry" />
@@ -112,10 +112,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="GWv6rFyFy3Bnxy6G4yUA-11" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="1、使用FVD进行强化的基线搭建" vertex="1">
-          <mxGeometry height="40" width="120" x="500" y="570" as="geometry" />
+          <mxGeometry height="40" width="120" x="500" y="565" as="geometry" />
         </mxCell>
         <mxCell id="GWv6rFyFy3Bnxy6G4yUA-12" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="2、将上述指标加入 与baseline比较" vertex="1">
-          <mxGeometry height="40" width="120" x="500" y="650" as="geometry" />
+          <mxGeometry height="40" width="120" x="500" y="623" as="geometry" />
+        </mxCell>
+        <mxCell id="GWv6rFyFy3Bnxy6G4yUA-14" parent="1" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#dae8fc;strokeColor=#6c8ebf;" value="将我们的Video Gen model 集成并开始训练" vertex="1">
+          <mxGeometry height="64" width="100" x="390" y="696" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
