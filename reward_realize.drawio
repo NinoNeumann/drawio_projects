@@ -5,7 +5,7 @@
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2g_ENjvGsplwXEr2d-Ht-143" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=12 12;" value="" vertex="1">
-          <mxGeometry height="280" width="420" x="870" y="-60" as="geometry" />
+          <mxGeometry height="280" width="420" x="870" y="-50" as="geometry" />
         </mxCell>
         <mxCell id="2g_ENjvGsplwXEr2d-Ht-26" connectable="0" parent="1" style="group" value="" vertex="1">
           <mxGeometry height="500" width="270" x="60" y="-50" as="geometry" />
@@ -231,13 +231,13 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2g_ENjvGsplwXEr2d-Ht-106" parent="1" style="rounded=1;whiteSpace=wrap;html=1;" value="Qwen3VL-235BA22" vertex="1">
-          <mxGeometry height="40" width="120" x="1020" y="110" as="geometry" />
+          <mxGeometry height="40" width="120" x="1020" y="120" as="geometry" />
         </mxCell>
         <mxCell id="2g_ENjvGsplwXEr2d-Ht-131" parent="1" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" value="Text Alignment" vertex="1">
-          <mxGeometry height="30" width="120" x="1020" y="-60" as="geometry" />
+          <mxGeometry height="30" width="120" x="1020" y="-50" as="geometry" />
         </mxCell>
         <mxCell id="2g_ENjvGsplwXEr2d-Ht-132" connectable="0" parent="1" style="group" value="" vertex="1">
-          <mxGeometry height="86" width="88" x="1036" y="-10" as="geometry" />
+          <mxGeometry height="86" width="88" x="1036" as="geometry" />
         </mxCell>
         <mxCell id="2g_ENjvGsplwXEr2d-Ht-100" parent="2g_ENjvGsplwXEr2d-Ht-132" style="whiteSpace=wrap;html=1;aspect=fixed;" value="" vertex="1">
           <mxGeometry height="80" width="80" y="6" as="geometry" />
@@ -249,7 +249,7 @@
           <mxGeometry height="80" width="80" x="8" as="geometry" />
         </mxCell>
         <mxCell id="2g_ENjvGsplwXEr2d-Ht-133" parent="1" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" value="video align 用的是&lt;div&gt;qwen2vl-2B&lt;/div&gt;" vertex="1">
-          <mxGeometry height="60" width="120" x="890" y="20" as="geometry" />
+          <mxGeometry height="60" width="120" x="890" y="30" as="geometry" />
         </mxCell>
         <mxCell id="2g_ENjvGsplwXEr2d-Ht-134" edge="1" parent="1" source="2g_ENjvGsplwXEr2d-Ht-101" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="2g_ENjvGsplwXEr2d-Ht-106">
           <mxGeometry relative="1" as="geometry" />
@@ -258,16 +258,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="2g_ENjvGsplwXEr2d-Ht-135" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="Prompts" vertex="1">
-          <mxGeometry height="57" width="60" x="1150" y="3" as="geometry" />
+          <mxGeometry height="57" width="60" x="1150" y="13" as="geometry" />
         </mxCell>
         <mxCell id="2g_ENjvGsplwXEr2d-Ht-137" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="VQ" vertex="1">
-          <mxGeometry height="20" width="50" x="1000" y="180" as="geometry" />
+          <mxGeometry height="20" width="50" x="1000" y="190" as="geometry" />
         </mxCell>
         <mxCell id="2g_ENjvGsplwXEr2d-Ht-138" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="MQ" vertex="1">
-          <mxGeometry height="20" width="50" x="1055" y="180" as="geometry" />
+          <mxGeometry height="20" width="50" x="1055" y="190" as="geometry" />
         </mxCell>
         <mxCell id="2g_ENjvGsplwXEr2d-Ht-139" parent="1" style="rounded=0;whiteSpace=wrap;html=1;" value="TA" vertex="1">
-          <mxGeometry height="20" width="50" x="1110" y="180" as="geometry" />
+          <mxGeometry height="20" width="50" x="1110" y="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
